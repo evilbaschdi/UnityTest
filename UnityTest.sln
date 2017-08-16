@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTest", "UnityTest\UnityTest.csproj", "{23950965-60A5-4E42-88CC-D9FE39C70F72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23950965-60A5-4E42-88CC-D9FE39C70F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23950965-60A5-4E42-88CC-D9FE39C70F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23950965-60A5-4E42-88CC-D9FE39C70F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23950965-60A5-4E42-88CC-D9FE39C70F72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDFC9166-5960-4467-A996-18919CBAD622}
+	EndGlobalSection
+EndGlobal
