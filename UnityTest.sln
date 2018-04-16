@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTest", "UnityTest\UnityTest.csproj", "{23950965-60A5-4E42-88CC-D9FE39C70F72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityTest", "UnityTest\UnityTest.csproj", "{23950965-60A5-4E42-88CC-D9FE39C70F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullDotNet", "FullDotNet\FullDotNet.csproj", "{1E72C92A-2B28-4089-BF6B-D89DB8E2C0DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{23950965-60A5-4E42-88CC-D9FE39C70F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23950965-60A5-4E42-88CC-D9FE39C70F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23950965-60A5-4E42-88CC-D9FE39C70F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E72C92A-2B28-4089-BF6B-D89DB8E2C0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E72C92A-2B28-4089-BF6B-D89DB8E2C0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E72C92A-2B28-4089-BF6B-D89DB8E2C0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E72C92A-2B28-4089-BF6B-D89DB8E2C0DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
