@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text;
 using FullDotNet.Internal;
 using Unity;
 using Unity.Injection;
@@ -30,7 +29,7 @@ namespace FullDotNet
             container.RegisterType<IDemoInterface, DemoClass>();
             container.RegisterType<INumber, One>("One");
             container.RegisterType<INumber, Two>("Two", new InjectionConstructor(new ResolvedParameter<INumber>("One")));
-            container.RegisterType<IReturn, Return>();
+            container.RegisterType<IReturn, Return>("Return", new InjectionConstructor(new ResolvedParameter<IDemoInterface>(), new ResolvedParameter<INumber>("Two")));
             return container;
         }
     }

@@ -1,6 +1,6 @@
 ﻿namespace FullDotNet.Internal
 {
-    public class Two : ChainHelperForString, INumber
+    public class Two : ChainHelperFor<string, string>, INumber
     {
         public Two(INumber number)
             : base(number)

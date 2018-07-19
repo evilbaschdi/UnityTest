@@ -22,8 +22,5 @@
     }
 
 
-    /// <inheritdoc />
-    public interface IChainHelperForString : IChainHelperFor<string, string>
-    {
-    }
+  
 }
